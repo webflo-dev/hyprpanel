@@ -1,6 +1,6 @@
 module github.com/pdf/hyprpanel
 
-go 1.21.5
+go 1.23.0
 
 require (
 	github.com/fsnotify/fsnotify v1.7.0
@@ -14,7 +14,7 @@ require (
 	github.com/jwijenbergh/puregotk v0.0.0-20240305120901-acaa168affb9
 	github.com/peterbourgon/ff/v4 v4.0.0-alpha.4
 	github.com/rkoesters/xdg v0.0.1
-	golang.org/x/sync v0.7.0
+	golang.org/x/sync v0.12.0
 	google.golang.org/grpc v1.63.2
 	google.golang.org/protobuf v1.34.1
 )
@@ -29,8 +29,8 @@ require (
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.1 // indirect
 	github.com/stretchr/testify v1.8.4 // indirect
-	golang.org/x/net v0.25.0 // indirect
-	golang.org/x/sys v0.20.0 // indirect
-	golang.org/x/text v0.15.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240509183442-62759503f434 // indirect
 )
